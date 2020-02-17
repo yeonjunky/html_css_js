@@ -3,38 +3,21 @@ body{
     height: 100%;
 }
 
-.wrap{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
+.header .menu {
     height: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.wrap img{
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    width: 20%;
+    background-color: rgb(17, 101, 255);
+    text-align: center;
+    font-size: 40px;
+    font-style: inherit;
 }
 
 .header{
-    background-color: rgb(140, 233, 228);
+    height: 80px;
+    width: 100%;
+    background-color: deepskyblue;
     margin: 0px;
-    font-size: 35px;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-.wrap hr.timeline{
-    border-width: 5px;
-    border-style: solid;
-    border-color: rgb(59, 248, 255);
-    border-radius: 5px;
-    overflow: auto;
-    margin-top: 200px;   
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
