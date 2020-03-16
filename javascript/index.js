@@ -21,8 +21,10 @@ var skf = 123;
 // console.log(document);
 // console.error("error!");
 const head = document.getElementsByTagName("h1");
-console.log(head);
+// console.log(head);
 const title = document.getElementById("title");
 title.innerHTML = 'hi from js';
-console.log(title);
-console.dir(title);
+title.style.color = "black"
+// console.log(title);
+// console.dir(document);
+document.title = "Hello Im javascript!"
